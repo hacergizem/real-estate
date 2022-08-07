@@ -1,0 +1,18 @@
+.search {
+  border: none;
+  outline: none;
+  color: black;
+  width: 75px;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/searchIcon.svg");
+  background-position: center center;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+}
+.logo {
+  height: 40px;
+}

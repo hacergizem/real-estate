@@ -1,0 +1,42 @@
+.container {
+  max-height: 40px;
+  min-height: 40px;
+  padding: 7px 15px;
+  width: 100px;
+  border: none;
+  border-radius: 60px;
+}
+
+.sm {
+  font-size: 12px;
+}
+
+.primaryStyle {
+  background-color: #f7785d;
+  color: white;
+}
+.primaryStyle:hover {
+  border: 2px solid #f7785d;
+  background-color: white;
+  color: #f7785d;
+}
+
+.secondaryStyle {
+  border: 2px solid #f7785d;
+  background-color: transparent;
+  color: black;
+}
+.secondaryStyle:hover {
+  background-color: #f7785d;
+  color: white;
+}
+
+.thirdStyle {
+  border: 2px solid #f7785d;
+  background-color: transparent;
+  color: white;
+}
+.thirdStyle:hover {
+  background-color: #f7785d;
+  color: white;
+}

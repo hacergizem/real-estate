@@ -1,0 +1,21 @@
+.container {
+  height: 300px;
+  width: 100%;
+  background-image: url("../../assets//spain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swiper {
+  height: 300px;
+}
+.swiperContent {
+  padding-left: 7rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.swiperContent p {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
