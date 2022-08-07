@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './SectionTitle.module.css'
 
-function SectionTitle({ text }) {
+function SectionTitle({ text, textTheme = "textPrimary", box = "boxPrimary" }) {
     return (
-        <div className="mb-4 mt-5">
-            <p className={styles.title}>{text}<span className={styles.box}></span></p>
-        </div>
+        <div>
+            <p className={`${styles.title} ${styles[textTheme]}`}>{text}<span className={`${styles.box} ${styles[box]}`}></span></p>
+        </div >
     )
 }
 

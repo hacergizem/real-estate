@@ -1,7 +1,12 @@
 .title {
-  position: relative;
-  padding-left: 120px;
   font-size: 42px;
+  position: relative;
+}
+.textPrimary {
+  color: #000000;
+}
+.textSecondary {
+  color: white;
 }
 .box {
   position: absolute;
@@ -9,11 +14,28 @@
   right: -10;
   width: 15px;
   height: 15px;
+}
+.boxPrimary {
   background-color: #085856;
 }
+.boxSecondary {
+  background-color: #f7785d;
+}
 @media (max-width: 767.98px) {
-  .title {
+  .textPrimary {
     padding-left: 20px;
     font-size: 28px;
+  }
+  .textSecondary {
+    padding-left: 20px;
+    font-size: 28px;
+  }
+  .boxPrimary {
+    width: 10px;
+    height: 10px;
+  }
+  .boxSecondary {
+    width: 10px;
+    height: 10px;
   }
 }

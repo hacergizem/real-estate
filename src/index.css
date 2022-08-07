@@ -1,8 +1,11 @@
 .owl-stage {
-  left: -200px !important;
+  left: -150px !important;
+}
+.navbar-toggler {
+  border: none !important;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 990px) {
   .owl-stage {
     left: -40px !important;
   }

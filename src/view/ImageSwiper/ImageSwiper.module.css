@@ -19,3 +19,8 @@
   font-size: 32px;
   margin-bottom: 2px;
 }
+@media (max-width: 767.98px) {
+  .swiperContent {
+    padding-left: 1rem;
+  }
+}

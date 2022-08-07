@@ -32,8 +32,8 @@ function CustomNavbar() {
                         <Nav className="me-auto my-2 my-lg-0">
                             <Navbar.Brand className="d-lg-flex d-none" href="#"><img className={styles.logo} src={logo}></img></Navbar.Brand>
                         </Nav>
-                        <Form className="col-lg-3 col-12 d-flex flex-lg-row flex-column justify-content-between align-items-start align-items-lg-center">
-                            <div className="d-lg-flex d-none flex-row align-items-center">
+                        <Form className="col-lg-3 col-12 d-flex flex-lg-row flex-column justify-content-end align-items-start align-items-lg-center">
+                            <div className="d-lg-flex d-none flex-row align-items-center mx-2">
                                 <input
                                     type="search"
                                     placeholder="Search"
@@ -42,7 +42,7 @@ function CustomNavbar() {
                                 />
                                 <button className={styles.searchIcon}></button>
                             </div>
-                            <div className="d-lg-flex d-none"><CustomButton theme="primaryStyle" title="Say Hello" /></div>
+                            <div className="d-lg-flex d-none mx-4"><CustomButton theme="primaryStyle" title="Say Hello" /></div>
 
                             <NavDropdown align="end" title="En" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">En</NavDropdown.Item>

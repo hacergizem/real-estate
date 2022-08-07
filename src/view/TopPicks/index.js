@@ -20,20 +20,18 @@ function TopPicks() {
         responsive: {
             0: {
                 margin: 5,
-                stagePadding: 30,
-                items: 1,
-            },
-            400: {
-                items: 1,
-            },
-            768: {
-                margin: 5,
-                autoWidth: true,
+                autoWidth: false,
                 stagePadding: 40,
                 items: 1,
             },
-            1000: {
-                stagePadding: 200,
+            992: {
+                margin: 5,
+                autoWidth: false,
+                stagePadding: 40,
+                items: 1,
+            },
+            1200: {
+                stagePadding: 150,
                 items: 2,
             }
         },
@@ -41,9 +39,11 @@ function TopPicks() {
 
     return (
         <>
-            <SectionTitle text="Our Top Pics" />
+            <div className="pt-5 ps-lg-5 ps-0 ms-lg-5 ms-0 mb-lg-5 mb-2">
+                <SectionTitle text="Our Top Pics" />
+            </div>
             <div className="d-flex flex-row justify-content-end mb-5" >
-                <div className="col-lg-11 col-md-10 col-12 p-lg-0">
+                <div className="col-lg-11 col-md-10 col-12" style={{ paddingLeft: '10px' }}>
                     <OwlCarousel className="owl-theme" {...options}>
                         <div className={styles.imageContainer}>
                             <img alt="Owl Item" className={styles.image} src={img1} />

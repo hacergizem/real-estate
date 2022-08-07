@@ -1,11 +1,62 @@
 .container {
   background-color: #f3f4f2;
   width: 100%;
-  height: 700px;
 }
 .line {
   content: " ";
   height: 2px;
   background-color: #40b2a4;
   width: 100%;
+}
+.whiteLine {
+  height: 70px;
+  width: 2.5px;
+  background-color: white;
+}
+.imageContainer {
+  background-image: linear-gradient(
+      360deg,
+      #2e2a2bb2 13%,
+      rgba(21, 21, 21, 0.13) 42.71%,
+      rgba(0, 0, 0, 0.201) 100%
+    ),
+    url("../../assets/house.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  width: 80px;
+}
+.text {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+.subText {
+  font-size: 15px;
+}
+@media (max-width: 767.98px) {
+  .icon {
+    width: 50px;
+  }
+  .line {
+    display: none;
+  }
+  .whiteLine {
+    display: none;
+  }
+  .imageContainer {
+    height: 350px;
+  }
+}
+@media (max-width: 992.98px) {
+  .line {
+    display: none;
+  }
 }
